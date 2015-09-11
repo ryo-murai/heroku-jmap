@@ -24,6 +24,9 @@ repositories {
     mavenCentral()
 }
 
+jar {
+    baseName = 'demo'
+}
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
