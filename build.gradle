@@ -42,7 +42,7 @@ eclipse {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.3'
+    gradleVersion = '2.6'
 }
 
-task stage(dependsOn: ['wrapper', 'build')
+task stage(dependsOn: 'build')
